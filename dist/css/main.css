@@ -64,6 +64,11 @@ body {
   padding-right: 110px;
 }
 
+#content .sections {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
 /* About */
 #content #about {
   margin-top: 400px;
@@ -81,7 +86,7 @@ body {
 
 /* Education */
 #content #education {
-  margin-top: 400px;
+  margin-top: 250px;
   padding: 15px;
   border: 2px solid;
   border-radius: 20px;
@@ -94,6 +99,78 @@ body {
   border-bottom: 2px solid;
 }
 
+#content #education .school {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#content #education .school-title {
+  padding-top: 3rem;
+  margin-bottom: -2rem;
+  border-bottom: 1px solid lightgrey;
+}
+
+#content #education .school-details-1 {
+  margin-top: -12px;
+}
+
+#content #education .school-details-2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* Experience */
+#content #experience {
+  margin-top: 250px;
+  padding: 15px;
+  border: 2px solid;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  background-color: white;
+  box-shadow: 5px 5px 15px grey;
+}
+
+#content #experience h3 {
+  border-bottom: 2px solid;
+}
+
+#content #experience .circle {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(72, 144, 226);
+  border-radius: 50%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgb(33, 122, 224);
+}
+
+#content #experience .circle .fa-briefcase {
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#content #experience .line {
+  width: 2px;
+  height: 200px;
+  background-color: grey;
+  margin-bottom: -1rem;
+  margin-left: 20px;
+}
+
+#content #experience .job-3 {
+  border: 2px solid rgb(72, 144, 226);
+  padding: 10px;
+  border-radius: 0px 20px 0px 20px;
+  margin-top: 50px;
+  min-width: 200px;
+  max-width: auto;
+}
+
+#content #experience .job-3 .position-title {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid lightgrey;
+}
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 #content::-webkit-scrollbar {
