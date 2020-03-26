@@ -11,15 +11,19 @@ body {
   text-align: center;
 }
 
-#menu .menu-btn-close {
-  visibility: hidden;
-}
-
 #menu img {
   max-width: 75%;
   height: auto;
   margin-top: 10vh;
   margin-bottom: 1rem;
+}
+
+#menu h1 {
+  color: white;
+}
+
+#menu .icons-2x {
+  display: none;
 }
 
 #menu .icons a {
@@ -50,10 +54,75 @@ body {
 
 #menu .links a:hover {
   cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
   border-bottom: 2px solid rgb(33, 122, 224);
 }
 
 #menu .copyright {
+  color: white;
+  margin-top: 2rem;
+}
+
+/* Mobile Menu */
+#menu-mobile {
+  background-color: rgba(68, 68, 68, 1);
+  max-width: 300px;
+  position: absolute;
+  z-index: 3;
+  left: -300px;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.5s ease-out;
+}
+
+#menu-mobile .menu-btn-close {
+  visibility: hidden;
+}
+
+#menu-mobile img {
+  max-width: 75%;
+  height: auto;
+  margin-top: 10vh;
+  margin-bottom: 1rem;
+}
+
+#menu-mobile .icons a {
+  color: white;
+  padding: 5px;
+}
+
+#menu-mobile .icons a:hover {
+  color: rgb(33, 122, 224);
+}
+
+#menu-mobile .links-mobile {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#menu-mobile .links-mobile a {
+  all: unset;
+  color: white;
+  font-size: 18px;
+}
+
+#menu-mobile .links-mobile a:hover {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 2px solid rgb(33, 122, 224);
+}
+
+#menu-mobile .copyright {
   color: white;
   margin-top: 2rem;
 }
@@ -70,12 +139,16 @@ body {
   padding-right: 4rem;
 }
 
-#content .fa-bars {
+#content .menu-btn .fa-bars {
+  display: none;
+}
+
+#content .menu-btn-2x .fa-bars {
   display: none;
 }
 
 #content h1 {
-  margin-top: 25%;
+  margin-top: 20%;
   font-size: 75px;
 }
 
@@ -86,6 +159,14 @@ body {
 #content .title-icons {
   padding-top: 1rem;
   text-align: center;
+}
+
+#content .title-icons-3x {
+  display: none;
+}
+
+#content .title-icons-1x {
+  display: none;
 }
 
 #content .title-icons .fa-code {
@@ -142,13 +223,15 @@ body {
 }
 
 #content .education .school-title {
-  padding-top: 3rem;
-  margin-bottom: -2rem;
   border-bottom: 1px solid rgb(72, 144, 226);
 }
 
 #content .education .school-details {
   margin-top: -12px;
+}
+
+#content .education .school-details small b {
+  padding-left: 30px;
 }
 
 /* Experience */
@@ -164,6 +247,7 @@ body {
   margin-bottom: 100px;
   background-color: white;
   box-shadow: 5px 5px 15px grey;
+  padding-bottom: 4rem;
 }
 
 #content .experience h3 {

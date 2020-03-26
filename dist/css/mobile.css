@@ -1,28 +1,78 @@
 @import "main.css";
 
-@media (max-width: 1120px) {
+@media (min-width: 1900px) {
 
-    #menu {
-        all: unset;
-        background-color: rgba(68, 68, 68, 1);
-        max-width: 300px;
-        position: absolute;
-        z-index: 3;
-        left: -300px;
-        min-height: 100vh;
-        max-height: 100vh;
-        overflow: hidden;
-        text-align: center;
-        transition: all 0.5s ease-out;
+    /* Menu */
+    #menu img {
+        max-width: 65%;
     }
 
-    #menu .menu-btn-close .fa-times {
+    #menu h1 {
+        font-size: 55px;
+    }
+
+    #menu .icons {
+        display: none;
+    }
+
+    #menu .icons-2x {
+        all: unset;
+    }
+
+    #menu .icons-2x a {
+        color: white;
+        padding: 10px;
+    }
+
+    #menu .links a {
+        font-size: 24px;
+    }
+
+    #menu .copyright small {
+        font-size: 16px;
+    }
+
+    /* Content */
+    #content h1 {
+        font-size: 125px;
+    }
+
+    #content h2 {
+        font-size: 40px;
+    }
+
+    #content .title-icons {
+        display: none;
+    }
+
+    #content .title-icons-3x {
+        all: unset;
+    }
+
+    #content .title-icons-3x .fa-code {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media (max-width: 1120px) {
+
+    /* Menu */
+    #menu {
+        display: none;
+    }
+
+    #menu-mobile .menu-btn-close .fa-times {
         visibility: visible;
         color: white;
         float: right;
         margin-top: 20px;
         margin-right: 20px;
         cursor: pointer;
+    }
+
+    #menu-mobile .menu-btn-close .fa-times:hover {
+        color: rgb(33, 122, 224);
     }
 
     #menu-background {
@@ -36,6 +86,7 @@
         transition: all 0.5s ease-out;
     }
 
+    /* Content */
     #content {
         all: unset;
         background-color: rgba(255, 255, 255, 0.85);
@@ -46,7 +97,6 @@
         overflow-x: hidden;
         padding-left: 4rem;
         padding-right: 4rem;
-        min-width: 700px;
     }
 
     #content .menu-btn .fa-bars {
@@ -59,11 +109,26 @@
         max-width: 20px;
     }
 
+    #content .menu-btn .fa-bars:hover {
+        color: rgb(33, 122, 224);
+    }
+
 
 }
 
-@media (max-width: 824px) {
+@media (max-width: 825px) {
 
+    /* Content */
+    #content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #content .menu-btn .fa-bars {
+        margin-top: 15px;
+    }
+
+    /* Experience */
     #content .experience .col-1 {
         display: none;
     }
@@ -79,4 +144,112 @@
         margin-right: 25px;
     }
 
+}
+
+@media (max-width: 625px) {
+
+    /* Content */
+    #content {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    #content .menu-btn .fa-bars {
+        display: none;
+    }
+
+    #content .menu-btn-2x .fa-bars {
+        display: block;
+        margin-top: 10px;
+        margin-left: 25px;
+        cursor: pointer;
+        top: 0;
+        z-index: 2;
+        position: fixed;
+        max-width: 20px;
+    }
+
+    #content .menu-btn-2x .fa-bars:hover {
+        color: rgb(33, 122, 224);
+    }
+
+    #content h1 {
+        margin-top: 40%;
+        font-size: 50px;
+    }
+
+    #content h2 {
+        font-size: 16px;
+    }
+
+    #content .title-icons {
+        display: none;
+    }
+
+    #content .title-icons-1x {
+        all: unset;
+    }
+
+    #content .title-icons-1x .fa-code {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    /* About */
+    #content .about {
+        all: inherit;
+        border-bottom: 2px solid black;
+    }
+
+    /* Education */
+    #content .education {
+        all: inherit;
+        border-bottom: 2px solid black;
+    }
+
+    #content .education .school {
+        margin: 0px;
+    }
+
+    #content .education .school-details small b {
+        padding-left: 0px;
+    }
+
+    /* Experience */
+    #content .experience {
+        all: inherit;
+        border-bottom: 2px solid black;
+    }
+
+    #content .experience .job {
+        padding: 0px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 1rem;
+    }
+
+    /* Projects */
+    #content .projects {
+        all: inherit;
+        border-bottom: 2px solid black;
+    }
+
+    #content .projects .project {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #content .projects .project .project-description {
+        margin: 0px;
+        font-size: 18px;
+    }
+
+    /* Skills */
+    #content .skills {
+        all: inherit;
+        border-bottom: 2px solid black;
+        padding-bottom: 1rem;
+        margin-bottom: 45vh;
+    }
 }
