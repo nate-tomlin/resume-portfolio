@@ -73,7 +73,8 @@ body {
   left: -300px;
   min-height: 100vh;
   max-height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
   text-align: center;
   transition: all 0.5s ease-out;
 }
@@ -373,8 +374,14 @@ body {
 #content::-webkit-scrollbar {
   display: none;
 }
+#menu-mobile::-webkit-scrollbar {
+  display: none;
+}
 
 /* Hide scrollbar for IE and Edge */
 #content {
+  -ms-overflow-style: none;
+}
+#menu-mobile {
   -ms-overflow-style: none;
 }
