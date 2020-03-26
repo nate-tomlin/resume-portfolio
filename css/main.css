@@ -374,6 +374,7 @@ body {
 #content::-webkit-scrollbar {
   display: none;
 }
+
 #menu-mobile::-webkit-scrollbar {
   display: none;
 }
@@ -382,6 +383,7 @@ body {
 #content {
   -ms-overflow-style: none;
 }
+
 #menu-mobile {
   -ms-overflow-style: none;
 }

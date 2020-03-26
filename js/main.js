@@ -15,6 +15,11 @@ menuBTN2.addEventListener('click', toggleMenu);
 menuBTNClose.addEventListener('click', toggleMenu);
 links.addEventListener('click', toggleMenu);
 
+menuBTN.addEventListener('touch', toggleMenu);
+menuBTN2.addEventListener('touch', toggleMenu);
+menuBTNClose.addEventListener('touch', toggleMenu);
+links.addEventListener('touch', toggleMenu);
+
 //Function That Moves in Menu Items
 function toggleMenu() {
     if (!showMenu) {
