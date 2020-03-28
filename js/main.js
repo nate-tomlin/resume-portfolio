@@ -14,7 +14,7 @@ menuBTN.addEventListener('click', toggleMenu);
 menuBTN2.addEventListener('click', toggleMenu);
 menuBTNClose.addEventListener('click', toggleMenu);
 links.addEventListener('click', toggleMenu);
-
+//Mobile Touches
 menuBTN.addEventListener('touch', toggleMenu);
 menuBTN2.addEventListener('touch', toggleMenu);
 menuBTNClose.addEventListener('touch', toggleMenu);

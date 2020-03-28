@@ -341,6 +341,10 @@ body {
   color: rgb(33, 122, 224);
 }
 
+#content .projects .project .download-links {
+  text-align: center;
+}
+
 /* Skills */
 #content #skills {
   padding-top: 50px;

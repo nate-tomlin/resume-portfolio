@@ -267,6 +267,10 @@
         font-size: 18px;
     }
 
+    #content .projects .project .download-links {
+        padding-top: 1rem;
+    }
+
     /* Skills */
     #content #skills {
         margin-top: 25px;
