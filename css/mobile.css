@@ -55,6 +55,11 @@
         padding-left: 200px;
         padding-right: 200px;
     }
+
+    /* Contact */
+    #contact form {
+        padding-left: 175px;
+    }
 }
 
 /* Large */
@@ -281,5 +286,10 @@
         border-bottom: 2px solid black;
         padding-bottom: 1rem;
         margin-bottom: 25vh;
+    }
+
+    #contact form button {
+        margin-left: 25%;
+        width: 50%;
     }
 }
