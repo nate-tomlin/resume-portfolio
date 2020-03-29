@@ -305,7 +305,7 @@
         position: relative;
         left: -9%;
         min-width: 116%;
-        max-height: 150%;
+        min-height: 125%;
         overflow-x: hidden;
         overflow-y: hidden;
     }
