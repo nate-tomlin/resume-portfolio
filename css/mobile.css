@@ -305,7 +305,9 @@
         position: relative;
         left: -9%;
         min-width: 116%;
-        height: auto;
+        min-height: 150%;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     #contact-mobile h3 {
@@ -356,7 +358,6 @@
 
     #contact-mobile .contact-info {
         text-align: center;
-        vertical-align: middle;
     }
 
     #contact-mobile .contact-info p {
