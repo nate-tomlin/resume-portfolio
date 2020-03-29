@@ -229,11 +229,21 @@ body {
   border-bottom: 1px solid rgb(72, 144, 226);
 }
 
+#content .education .school-title .date {
+  float: right;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
 #content .education .school-details {
   margin-top: -12px;
 }
 
-#content .education .school-details small b {
+#content .education .school-details .details {
+  font-size: 16px;
+}
+
+#content .education .school-details .details b {
   padding-left: 30px;
 }
 
@@ -330,6 +340,12 @@ body {
 
 #content .projects .project .project-title {
   border-bottom: 1px solid rgb(72, 144, 226);
+}
+
+#content .projects .project p .date {
+  float: left;
+  margin-top: -1rem;
+  font-size: 14px;
 }
 
 #content .projects .project .project-description {

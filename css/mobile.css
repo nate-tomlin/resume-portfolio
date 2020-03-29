@@ -61,6 +61,91 @@
         padding-right: 200px;
     }
 
+    /* About */
+    #about .about h3 {
+        font-size: 40px;
+    }
+
+    #about .about p {
+        font-size: 25px;
+    }
+
+    /* Education */
+    #education .education h3 {
+        font-size: 40px;
+    }
+
+    #education .education .school-title {
+        font-size: 25px;
+    }
+
+    #education .education .school-title .date {
+        float: right;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    #education .education .school-details>b {
+        font-size: 25px;
+    }
+
+    #education .education .school-details .details {
+        font-size: 20px;
+    }
+
+    /* Experience */
+    #experience .experience h3 {
+        font-size: 40px;
+    }
+
+    #experience .experience .job .position-title {
+        font-size: 25px;
+    }
+
+    #experience .experience .job .company {
+        font-size: 25px;
+    }
+
+    #experience .experience .job .position-small-text small {
+        font-size: 15px;
+    }
+
+    #experience .experience .job .position-description {
+        font-size: 22px;
+    }
+
+    /* Projects */
+    #projects .projects h3 {
+        font-size: 40px;
+    }
+
+    #projects .projects .project-title {
+        font-size: 25px;
+    }
+
+    #projects .projects .project p .date {
+        float: left;
+        margin-top: -1rem;
+        font-size: 16px;
+    }
+
+    #projects .projects .project-description span {
+        font-size: 22px;
+    }
+
+    #projects .projects .project-description b {
+        font-size: 22px;
+    }
+
+    /* Skills */
+    #skills .skills h3 {
+        font-size: 40px;
+    }
+
+    #skills .skills .skills-list {
+        font-size: 25px;
+    }
+
     /* Contact */
     #contact-reg form {
         padding-left: 175px;
