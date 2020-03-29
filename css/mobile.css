@@ -21,9 +21,14 @@
         all: unset;
     }
 
+
     #menu .icons-2x a {
         color: white;
         padding: 10px;
+    }
+
+    #menu .icons-2x a:hover {
+        color: rgb(33, 122, 224);
     }
 
     #menu .links a {
@@ -305,7 +310,7 @@
         position: relative;
         left: -9%;
         min-width: 116%;
-        min-height: 150%;
+        min-height: 200%;
         overflow-x: hidden;
         overflow-y: hidden;
     }
