@@ -2,13 +2,14 @@
 
 /* X-Large */
 @media (min-width: 1900px) {
+
     /* Menu */
     #menu img {
         max-width: 65%;
     }
 
     #menu h1 {
-        font-size: 55px;
+        font-size: 60px;
     }
 
     #menu .icons {
@@ -82,7 +83,7 @@
         margin-top: 15px;
     }
 
-    #education .education .school-details > b {
+    #education .education .school-details>b {
         font-size: 25px;
     }
 
@@ -151,6 +152,7 @@
 
 /* Large */
 @media (max-width: 1120px) {
+
     /* Menu */
     #menu {
         display: none;
@@ -215,6 +217,7 @@
 
 /* Medium */
 @media (max-width: 825px) {
+
     /* Content */
     #content {
         padding-left: 2rem;
@@ -244,6 +247,7 @@
 
 /* Small */
 @media (max-width: 625px) {
+
     /* Content */
     #content {
         background-color: rgba(255, 255, 255, 0.9);
@@ -386,7 +390,7 @@
         position: relative;
         left: -9%;
         min-width: 116%;
-        min-height: 150%;
+        min-height: 100ch;
         overflow-x: hidden;
         overflow-y: hidden;
     }
@@ -443,6 +447,7 @@
 
     #contact-mobile .contact-info p {
         color: white;
+        font-size: 15px;
     }
 
     #contact-mobile .contact-info i {
