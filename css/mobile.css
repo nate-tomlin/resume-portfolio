@@ -143,6 +143,23 @@
         font-size: 25px;
     }
 
+    /* References */
+    #references .references h3 {
+        font-size: 40px;
+    }
+
+    #references .references .reference-list {
+        font-size: 25px;
+    }
+
+    #content .references .reference-description-1 {
+        font-size: 18px;
+      }
+      
+      #content .references .reference-description-2 {
+        font-size: 18px;
+      }
+
     /* Contact */
     #contact-reg form {
         padding-left: 175px;
@@ -371,8 +388,45 @@
         all: inherit;
         border-bottom: 2px solid black;
         padding-bottom: 1rem;
+    }
+
+    /* References */
+    #content #references {
+        display: none;
+    }
+    #content #references-mobile {
+        display: block;
+        padding-top: 150px;
+    }
+
+    #content .references-mobile {
+        border-bottom: 2px solid black;
+        padding-bottom: 1rem;
         margin-bottom: 25vh;
     }
+
+    #content .references-mobile h3 {
+        border-bottom: 2px solid;
+      }
+
+    #content .references-mobile .reference-mobile-list {
+        margin-top: 25px;
+        border-bottom: 1px solid rgb(72, 144, 226);
+      }
+      
+      #content .references-mobile .reference-mobile-description-1 {
+        font-size: 14px;
+      }
+      
+      #content .references-mobile .reference-mobile-description-2 {
+        margin-top: -1rem;
+        font-size: 14px;
+      }
+
+      #content .references-mobile .reference-mobile-link {
+        text-align: center;
+        padding-bottom: 1rem;
+      }
 
     /* Contact */
     #contact-reg {

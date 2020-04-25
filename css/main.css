@@ -397,6 +397,51 @@ body {
   color: rgb(33, 122, 224);
 }
 
+/* References */
+#content #references-mobile {
+  display: none;
+}
+
+#content #references {
+  padding-top: 50px;
+  margin-top: 250px;
+}
+
+#content .references {
+  padding: 15px;
+  border: 2px solid;
+  border-radius: 20px;
+  margin-bottom: 25vh;
+  background-color: white;
+  box-shadow: 5px 5px 15px grey;
+}
+
+#content .references h3 {
+  border-bottom: 2px solid;
+}
+
+#content .references .reference-list {
+  margin-top: 25px;
+  margin-left: 25px;
+  border-bottom: 1px solid rgb(72, 144, 226);
+}
+
+#content .references .reference-description-1 {
+  margin-left: 25px;
+  font-size: 14px;
+}
+
+#content .references .reference-description-2 {
+  margin-left: 25px;
+  margin-top: -1rem;
+  font-size: 14px;
+}
+
+#content .references .reference-link {
+  text-align: center;
+  margin-top: 7px;
+}
+
 /* Contact */
 #contact-reg {
   margin-top: 50px;
